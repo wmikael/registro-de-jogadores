@@ -37,7 +37,7 @@ button:hover {
 }
 
 table {
-  width: 400px;
+  /* width: px; */
   border-collapse: collapse;
   margin-top: 20px;
 }
