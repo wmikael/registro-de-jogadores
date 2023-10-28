@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Registro de Jogadores</title>
+  </head>
+  <body>
+    <h1>Registro de Jogadores</h1>
+    <label for="nomeJogador1">Nome do Jogador 1:</label>
+    <input type="text" id="nomeJogador1" required />
+    <br />
+
+    <label for="nomeJogador2">Nome do Jogador 2:</label>
+    <input type="text" id="nomeJogador2" required />
+    <br />
+
+    <button onclick="registrarJogadores()">Registrar</button>
+    <button onclick="tabela.limparTabela()">Limpar Tabela</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
